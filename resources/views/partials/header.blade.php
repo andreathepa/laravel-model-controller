@@ -32,32 +32,32 @@
                         <ul class="list-unstyled d-flex justify-content-center text-uppercase">
                             
                             <li class="nav-item mx-2">
-                                <a class="nav-link">
+                                <a class="nav-link {{ Route::currentRouteName() === 'home' ? 'fw-bold' : '' }}" href="{{ route('home')}}">
                                     Homepage
                                 </a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link">
+                                <a class="nav-link {{ Route::currentRouteName() === 'link' ? 'fw-bold' : '' }}" href="/">
                                     Products
                                 </a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link">
+                                <a class="nav-link {{ Route::currentRouteName() === 'link' ? 'fw-bold' : '' }}" href="/">
                                     Games
                                 </a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link">
+                                <a class="nav-link {{ Route::currentRouteName() === 'link' ? 'fw-bold' : '' }}" href="/">
                                     Movies
                                 </a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link">
+                                <a class="nav-link {{ Route::currentRouteName() === 'link' ? 'fw-bold' : '' }}" href="/">
                                     News
                                 </a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link">
+                                <a class="nav-link {{ Route::currentRouteName() === 'link' ? 'fw-bold' : '' }}" href="/">
                                     Blog
                                 </a>
                             </li>

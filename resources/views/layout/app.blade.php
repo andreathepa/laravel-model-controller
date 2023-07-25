@@ -8,7 +8,7 @@
     <title>Laravel Model Controller</title>
 
 
-    <!-- Styles -->
+
     @vite('resources/js/app.js')
     
 </head>

@@ -10,7 +10,7 @@
                         <img class="img-fluidcard-img-top img-comic pointer" src="{{ $comic->thumb }}"
                             alt="{{ $comic->title }}">
                         <p class="my-2 text-uppercase">{{ $comic->title }}</p>
-                        <p class="my-2 text-uppercase">{{ $comic->description }}</p>
+                        <p class="my-2 text-uppercase overflow-auto description">{{ $comic->description }}</p>
                     </div>
                 </div>
             @endforeach
